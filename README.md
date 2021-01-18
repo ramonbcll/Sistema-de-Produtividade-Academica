@@ -13,7 +13,8 @@ Empregado na classe Menu e na interface MenuStrategy. Criando o polimofismo do m
 ### 2. Chain Constructors
 Disposto em equipe com o Strategy, na Classe Enum TypeMenu para alcançar a exclusão dos IF's na classe Menu.
 
-### 3.Extrac ClassColocado na classe Pessoas para retirar os atributos e metodos comuns das suas subclasses (professor, aluno).
+### 3.Extrac Class
+Colocado na classe Pessoas para retirar os atributos e metodos comuns das suas subclasses (professor, aluno).
 
 ### 4. Replace Array With Object
 Utilizado na Criação do ArrayList
