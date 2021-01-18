@@ -17,3 +17,6 @@ Disposto em equipe com o Strategy, na Classe Enum TypeMenu para alcançar a excl
 
 ### 4. Replace Array With Object
 Utilizado na Criação do ArrayList
+
+
+Desenvolvido no IntelliJ IDEA Ultimate
