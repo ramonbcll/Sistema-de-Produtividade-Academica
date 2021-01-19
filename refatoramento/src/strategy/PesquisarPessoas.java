@@ -14,11 +14,13 @@ public class PesquisarPessoas implements MenuStrategy {
         Scanner input = new Scanner(System.in);
         System.out.println("Digite o nome do colaborador a pesquisar:");
         String nome = input.nextLine();
-        for (Pessoas p : pessoas) {
-            if(nome.equalsIgnoreCase(p.nome)) {
+        for(Pessoas p : pessoas) {
+            if(nome.equalsIgnoreCase(p.getNome())) {
                 System.out.println(p);
+                return;
             }
         }
+        System.out.println("Colaborador nao cadastrado no banco de dados.");
     }
 }
 

@@ -14,30 +14,30 @@ public enum TypeMenu {
         public MenuStrategy obterMenu() {
             return new PesquisarPessoas();
         }
-    };/*
+    },
     CADASTRARPROJETO {
         @Override
         public MenuStrategy obterMenu() {
-            return;
+            return new CriarProjeto();
         }
     },
-    PESQUISARPROJETO {
+    ALTERARSTATUS {
         @Override
         public MenuStrategy obterMenu() {
-            return;
+            return new AlterarStatus();
         }
     },
     ADDPUBLICACAO {
         @Override
         public MenuStrategy obterMenu() {
-            return;
+            return new AddPublicacao();
         }
     },
     RELATORIOLAB {
         @Override
         public MenuStrategy obterMenu() {
-            return;
+            return new Relatorio();
         }
-    };*/
+    };
     public abstract MenuStrategy obterMenu();
 }

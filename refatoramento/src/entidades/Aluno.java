@@ -4,8 +4,8 @@ package entidades;
 public class Aluno extends Pessoas{
     int matricula;
 
-    public Aluno(String nome, String email, String titulo, int matricula) {
-        super(nome, email, titulo);
+    public Aluno(String nome, String email, String titulo, int matricula, String projeto1, String projeto2) {
+        super(nome, email, titulo, projeto1, projeto2);
         this.matricula = matricula;
     }
 

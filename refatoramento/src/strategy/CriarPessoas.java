@@ -1,6 +1,5 @@
 package strategy;
 
-
 import entidades.Aluno;
 import entidades.Pessoas;
 import entidades.Professor;
@@ -37,12 +36,12 @@ public class CriarPessoas implements MenuStrategy {
         if(tipo == 1) {
             System.out.println("SIAPE:");
             int siape = input.nextInt();
-            pessoas.add(new Professor(nome, email, "professor", siape));
+            pessoas.add(new Professor(nome, email, "professor", siape, null, null));
         }
         else if(tipo == 2) {
             System.out.println("MATRICULA:");
             int matricula = input.nextInt();
-            pessoas.add(new Aluno(nome, email, "aluno", matricula));
+            pessoas.add(new Aluno(nome, email, "aluno", matricula, null, null));
         }
         System.out.println("Colaborador cadastrado com sucesso.");
         return;

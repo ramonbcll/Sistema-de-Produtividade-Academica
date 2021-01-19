@@ -11,8 +11,8 @@ import java.util.Scanner;
 
 public class Menu {
     public Scanner input = new Scanner(System.in);
-    ArrayList<Pessoas> pessoas = new ArrayList<Pessoas>();
-    ArrayList<Projetos>projetos = new ArrayList<Projetos>();
+    public ArrayList<Pessoas> pessoas = new ArrayList<Pessoas>();
+    public ArrayList<Projetos>projetos = new ArrayList<Projetos>();
 
     public void start() {
         int option;
@@ -20,7 +20,7 @@ public class Menu {
                 " [1] Cadastrar colaborador\n"+
                 " [2] Pesquisar colaborador\n"+
                 " [3] Cadastrar projeto\n"+
-                " [4] Pesquisar projeto\n"+
+                " [4] Alterar status de um projeto\n"+
                 " [5] Adicionar publicacao a um projeto\n"+
                 " [6] Relatorio de informacoes\n"+
                 " [7] Sair");
