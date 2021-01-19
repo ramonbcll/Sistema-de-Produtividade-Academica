@@ -19,6 +19,6 @@ public class Aluno extends Pessoas{
 
     @Override
     public String toString() {
-        return super.toString() +"[MATRICULA]--" + getMatricula();
+        return super.toString() +"Matricula = '" + getMatricula() + '\'';
     }
 }

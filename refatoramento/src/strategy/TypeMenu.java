@@ -38,6 +38,12 @@ public enum TypeMenu {
         public MenuStrategy obterMenu() {
             return new Relatorio();
         }
+    },
+    SAIR {
+        @Override
+        public MenuStrategy obterMenu() {
+            return new Exit();
+        }
     };
     public abstract MenuStrategy obterMenu();
 }

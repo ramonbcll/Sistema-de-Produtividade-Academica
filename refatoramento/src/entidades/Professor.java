@@ -19,6 +19,6 @@ public class Professor extends Pessoas {
 
     @Override
     public String toString() {
-        return super.toString() +" [SIAPE]--" + getSiape();
+        return super.toString() +"Matricula = '" + getSiape() + '\'';
     }
 }

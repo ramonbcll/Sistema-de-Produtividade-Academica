@@ -100,15 +100,16 @@ public class Projetos {
 
     @Override
     public String toString() {
-        return "titulo='" + titulo + '\'' +
-                ", Data de inicio='" + dataInicio + '\'' +
-                ", Data de termino='" + dataTermino + '\'' +
-                ", status='" + status + '\'' +
-                ", agencia='" + agencia + '\'' +
-                ", objetivo='" + objetivo + '\'' +
-                ", descricao='" + descricao + '\'' +
-                ", valor=" + valor +
-                ", colaborador(es)=" + Arrays.toString(colaborador);
+        return "titulo = '" + titulo + "\'\n" +
+                "Data de inicio = '" + dataInicio + "\'\n" +
+                "Data de termino = '" + dataTermino + "\'\n" +
+                "Status = '" + status + "\'\n" +
+                "Agencia = '" + agencia + "\'\n" +
+                "Valor = '" + valor + "\'\n" +
+                "Objetivo = '" + objetivo + "\'\n" +
+                "Descricao = '" + descricao + "\'\n" +
+                "Publicacoes = '" + publicacoes + "\'\n" +
+                "Colaborador(es) = " + Arrays.toString(colaborador);
     }
 }
 

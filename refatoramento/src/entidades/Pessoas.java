@@ -54,10 +54,10 @@ public class Pessoas {
 
     @Override
     public String toString() {
-        return "nome='" + nome + '\'' +
-                ", email='" + email + '\'' +
-                ", titulo='" + titulo + '\'' +
-                ", projeto1='" + projeto1 + '\'' +
-                ", projeto2='" + projeto2 + '\'';
+        return "Nome = '" + nome + "\'\n" +
+                "Email = '" + email + "\'\n" +
+                "Titulo = '" + titulo + "\'\n" +
+                "Projeto 1 = '" + projeto1 + "\'\n" +
+                "Projeto 2 = '" + projeto2 + "\'\n";
     }
 }
